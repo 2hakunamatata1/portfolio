@@ -7,6 +7,8 @@ body{
     justify-content: space-between;
     background-color: white ;
     margin: 5px;
+    
+    
 }
 #leftside{
     display: flex;
@@ -57,11 +59,14 @@ h4{
 h5{
     margin-block-start: 0em;
     margin-block-end: 0em;
+    color: gray;
+    font-style: italic;
 }
 #box{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
     
 }
 
@@ -108,4 +113,39 @@ table{
 }
 th {
     text-align: left;
+  }
+
+@media screen and (max-width: 900px){
+    #left{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 95%;
+        padding: 2%;
+        background-color: white;
+        
+    }
+    #rightside{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        
+        
+    }
+    #right{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 100%;
+    }
+    #E{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        float: left;
+        background-color: white;
+        width: 95%;
+        
+    }
   }
